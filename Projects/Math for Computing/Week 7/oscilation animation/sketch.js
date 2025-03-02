@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(windowWidth / 2, windowHeight);
+  createCanvas(windowWidth, windowHeight);
   frameRate(120);
   background(255, 255, 0);
 }
@@ -46,7 +46,7 @@ see angular velocity in other code
   textSize(50);
   stroke(255, 255, 0);
   strokeWeight(5);
-  text("Comissions", x - 500, y * 0.9);
+  text("Commissions", x - 500, y * 0.9);
   fill(0, 0, 255);
   noStroke();
   rect(x - 200, y * 0.9, 20, 5);
